@@ -11,18 +11,24 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
 </head>
 
 <body>
     <div class="jumbotron background-color-couleur2 color-3">
         <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">Coucou Claire.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-secondary btn-lg" href="#" role="button">Learn more</a>
+        <img src="http://lorempixel.com/400/200" class="img-fluid" alt="Responsive image">
+        <button onclick="setImageUr1(); class="btn btn-secondary btn-lg" href="#" 
+        role="button">Learn more</button>
     </div>
-    </div>
+   
+</div>
+<script>
+function setImageUr1 () {
+            console.log (document.getElementById ('photo'))
+}
 
+</script>
 </body>
 
 </html>
